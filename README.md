@@ -108,9 +108,3 @@ cargo build --release
 
 The assistant is instructed to call out destructive commands, suggest inspection or dry-run steps, explain OS differences, and never pretend it ran a command.
 
-## Security
-
-- Never commit `.env` or expose your Discord or AI token.
-- If a token leaks, reset it in the provider's dashboard immediately.
-- The bot does not run shell commands, so a user cannot use Discord to execute commands on the bot server.
-- The AI provider receives the questions users send through `/ask`; review that provider's privacy policy before deploying publicly.
