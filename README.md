@@ -105,6 +105,3 @@ cargo build --release
 /ask question:How do I install a package on Fedora, Ubuntu, and Arch?
 /ask question:Explain this command: find . -type f -name '*.log' -delete
 ```
-
-The assistant is instructed to call out destructive commands, suggest inspection or dry-run steps, explain OS differences, and never pretend it ran a command.
-
